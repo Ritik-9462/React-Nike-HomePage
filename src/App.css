@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  max-height: 72px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+}
+
+li:hover{
+  color: blue;
+}
+
+li{
+  padding: 10px;
+}
+
+
+button{
+  background-color:  #D01C28;
+  border: none;
+  max-width: 100px;
+  max-height: 40px;
+}
+
+
+
+h1{
+  line-height: 102px;
+  
+}
+
+.content{
+  max-width: 1125px;
+  max-height: 613px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 100px;
+  font-weight: 400;
+  row-gap: 20px;
+
+}
+
+p{
+  font-weight: 400;
+}
+
+#shoe-img{
+  max-width: 530px;
+  max-height: 487px;
+}
+
+.button{
+  margin-left: 40px;
+}
